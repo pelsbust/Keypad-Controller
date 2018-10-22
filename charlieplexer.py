@@ -30,7 +30,7 @@ def set_pin(pin_index, pin_state):
         GPIO.output(pins[pin_index], pin_state)
 
 
-def light_led(led_number):
+def light_led(led_number, time):
     """
     Lights a given led input
 
